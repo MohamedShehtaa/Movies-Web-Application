@@ -1,0 +1,51 @@
+ .cover{
+    width:100vw;
+    height: 70vh;
+    position: absolute;
+    left: 0;
+}
+.cover .content{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+   height:114% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+
+}
+.content>img{
+        width: 30%;
+        max-height:80% ;
+        margin:0  1rem; 
+        border-radius: 1rem;
+        box-shadow: 3px 3px 3px rgb(88, 88, 88);
+}
+
+.subContent{
+    box-shadow: 18px 15px 100px rgb(61, 3, 3);
+    width:60%;
+    margin-left: 1rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.subContent h1{
+    text-shadow: 3px 3px 3px rgb(65, 63, 63);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.subContent p{
+      color: rgb(39, 13, 13);
+      line-height: 1.2;
+    
+      font-weight: 600;
+}
+
+.poster{
+    position: absolute;
+    z-index: 9999;
+} 
